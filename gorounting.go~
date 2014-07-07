@@ -55,8 +55,8 @@ func main() {
 	}
 	*/
 	//通过sync包的工作组解决同步问题
-	runtime.GOMAXPROCS(runtime.NumCPU()) 	//设置CPU个数
-	runtime.GOMAXPROCS(5) 	//设置CPU个数，当设置的CPU核数大于系统的核数时，只会按最大的运行
+	//runtime.GOMAXPROCS(runtime.NumCPU()) 	//设置CPU个数
+	runtime.GOMAXPROCS(5) 	//设置CPU个数
 	wg := sync.WaitGroup{} 	//设置同步的等待同步组
 	wg.Add(10) 	//设置该组有10个成员
 	for i:= 0; i<10; i++{
