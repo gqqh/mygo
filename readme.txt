@@ -3,3 +3,5 @@ Git is a free software.
 ok!!!
 append GPL
 test index or stage
+add a line
+add another new line
