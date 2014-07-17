@@ -6,3 +6,5 @@ test index or stage
 add a line
 add another new line
 create a new branch is quick in master 
+=======
+create a new branch is quick in featurea1
