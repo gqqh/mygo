@@ -1,0 +1,11 @@
+infile = random.dat outfile = sorted.dat algorithm = selectsort
+The sorting process costs  768.992us to process.
+
+infile = random.dat outfile = sorted.dat algorithm = qsort
+The sorting process costs  117.599us to process.
+
+infile = random.dat outfile = sorted.dat algorithm = bubblesort
+The sorting process costs  3.336477ms to process.
+
+infile = random.dat outfile = sorted.dat algorithm = insertsort
+The sorting process costs  1.770716ms to process.
